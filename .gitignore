@@ -6,3 +6,11 @@ __pycache__/
 *.pyo
 *.pyd
 .Python
+
+# Google API credentials - DO NOT COMMIT
+*.json
+!package.json
+!package-lock.json
+credentials.json
+*-*.json
+!requirements.txt
